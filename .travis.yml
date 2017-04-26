@@ -1,0 +1,8 @@
+language: perl
+
+install: cpanm --notest JSV File::Slurp lib::abs
+
+script: prove -v t
+
+perl:
+  - "5.24"
