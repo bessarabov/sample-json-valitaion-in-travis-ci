@@ -1,13 +1,16 @@
 {
-    "type": "object",
-    "properties": {
+    "additionalProperties" : false,
+    "properties" : {
         "name" : {
-            "type": "string"
+            "type" : "string"
         },
         "weight" : {
-            "type": "number"
+            "type" : "number"
         }
     },
-    "required": [ "name", "weight" ],
-    "additionalProperties": false
+    "required" : [
+        "name",
+        "weight"
+    ],
+    "type" : "object"
 }
